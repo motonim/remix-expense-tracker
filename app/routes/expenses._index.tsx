@@ -1,5 +1,9 @@
+// import { Outlet } from "@remix-run/react";
+
 export default function ExpensesPage() {
     return (
-      <h1>expenses</h1>
+      <main>
+        <h1>expenses index page</h1>
+      </main>
     );
   }
