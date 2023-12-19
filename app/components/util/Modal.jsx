@@ -12,4 +12,9 @@ function Modal({ children, onClose }) {
   );
 }
 
+// default value for onClose so it needs to be removed when it's completely done.
+Modal.defaultProps = {
+  onClose: () => {},
+};
+
 export default Modal;
